@@ -1,0 +1,81 @@
+html{
+  background-color: #007b7d;
+  background-image: url('south-park2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.students, .container{
+  display: none;
+}
+
+.container{
+  position: absolute;
+  top: 350px;
+  width: 90%;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+h2{
+  font-family: 'georgia', 'cursive';
+  font-style: italic;
+  position: absolute;
+  top: 325px;
+  left: 47%;
+  color: #C60323;
+
+}
+
+
+h1{
+  color: #C60323;
+  font-family: 'georgia', 'cursive';
+  font-style: italic;
+}
+h1{
+  text-align: center;
+}
+
+ .formContainer{
+  background-color: #53260F;
+  border: 1px solid #E0CE00;
+  font-family: 'georgia', 'cursive';
+  position: absolute;
+  top: 270px;
+  left: 30%;
+  height: 40px;
+}
+
+.container{
+  margin-top: 35px;
+}
+
+.container{
+  border: 1px solid #E0CE00;
+  background-color: black;
+  color:  #22A2A3;
+  font-family: 'georgia', 'cursive';
+  /* #00a4a7 */
+}
+
+#go, #showStudents{
+  background-color: black;
+  color:  #22A2A3;
+  border: 1px solid #E0CE00;
+}
+
+#go:hover, #showStudents:hover{
+  background-color: darkgrey;
+  font-weight: bold;
+}
+
+
+#name, #gender, #punctuality{
+  background-color: #E5AB02;
+  border: 1px solid #E0CE00;
+  color: white;
+}

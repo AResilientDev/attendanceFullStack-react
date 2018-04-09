@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<h1>Welcome To a Resilient attendace list &copy</h1>
+<div class="formContainer">
+<form action="/students" method="post">
+  <input id="name" type="text" name="name" placeholder="Enter Student Name">
+  <input id="gender" type="text" name="gender" placeholder="Enter student gender">
+  <input id="punctuality" type="text" name="punctuality" placeholder="Tardy, Late, or Present">
+  <input id="go" type="submit" name="" value="Proceed">
+  <button id="showStudents" type="button" name="button">Show All Students</button>
+  <!-- <button id="present" type="button" name="button">Present</button>
+  <button id="tardy" type="button" name="button">Tardy</button>
+  <button id="all" type="button" name="button">See All</button> -->
+</form>
+</div>
+<h2>Students</h2>
+<div class="container">
+<ol class="students">
+  <% for(var i=0; i<students.length; i++) {%>
+    <li class="student">
+      <p>Name: <%= students[i].name %>, </p>
+      <p>Gender: <%= students[i].gender%>, </p>
+      <p>Punctuality: <%= students[i].punctuality%>.</p>
+    </li>
+  <% } %>
+</ol>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
